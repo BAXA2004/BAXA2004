@@ -10,7 +10,7 @@ Going to the folder where is our file located
 Example: cd /c/Users/user/Desktop/"Lab 1"/calc-lab1
 
 compilation
-gcc -std=c17 -O2 -Wall -Wextra src/calc.c -o calc.exe -lm
+gcc -std=c17 -O2 -Wall -Wextra calc-lab1/src/calc.c -o calc.exe -lm
 
 creating test file
 echo "here you can write your problem. Example: 2+4*8" > input.txt
